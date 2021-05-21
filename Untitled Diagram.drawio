@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T09:43:54.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" version="14.6.12" etag="ROgmxJv75GgMfX_HemvV" type="github"><diagram id="pP_zKRRLjY6W0GEJr_z5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-21T09:44:04.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="D8GX_vEKiKAIZvjaHmgR" version="14.6.12" type="github">
+  <diagram id="pP_zKRRLjY6W0GEJr_z5" name="Page-1">
+    <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRg01MnI32_ZgcrCY8Ap-2" target="aRg01MnI32_ZgcrCY8Ap-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-2" value="&lt;font color=&quot;#333333&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;登录客服系统&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRg01MnI32_ZgcrCY8Ap-4" target="aRg01MnI32_ZgcrCY8Ap-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-4" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;stheiti&amp;#34; , &amp;#34;hei&amp;#34; , &amp;#34;heiti sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;到达报案登记页面&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRg01MnI32_ZgcrCY8Ap-6" target="aRg01MnI32_ZgcrCY8Ap-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-6" value="调用接口查询保单信息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="475" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRg01MnI32_ZgcrCY8Ap-8" target="aRg01MnI32_ZgcrCY8Ap-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-8" value="&lt;span&gt;根据条件查询保单信息&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.033;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aRg01MnI32_ZgcrCY8Ap-6" target="aRg01MnI32_ZgcrCY8Ap-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="560" as="sourcePoint" />
+            <mxPoint x="490" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="530" />
+              <mxPoint x="510" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-10" value="无保单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRg01MnI32_ZgcrCY8Ap-12" target="aRg01MnI32_ZgcrCY8Ap-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-12" value="选中保单进行报案" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-13" value="有保单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="600" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRg01MnI32_ZgcrCY8Ap-15" target="aRg01MnI32_ZgcrCY8Ap-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-15" value="报案信息填写" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-16" value="根据保单类型判断得到" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="740" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-17" value="报案成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRg01MnI32_ZgcrCY8Ap-18" value="通过前端格式的判断后进行保存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="860" width="210" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
