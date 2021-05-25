@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T09:16:26.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="6vr8dIUtq3XfjlvvG-3R" version="14.6.12" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-25T09:34:58.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="idpDqQWBKlEDBuOUxvT-" version="14.6.12" type="github" pages="2">
   <diagram id="pP_zKRRLjY6W0GEJr_z5" name="Page-1">
-    <mxGraphModel dx="3005" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="2600" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -704,6 +704,9 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-125" target="wFXP1XgkPk2sE4F9uo4A-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wFXP1XgkPk2sE4F9uo4A-125" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(155 , 9 , 246) ; font-style: italic&quot;&gt;是否勾选支付宝理赔&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="311.38" y="3610" width="153" height="80" as="geometry" />
         </mxCell>
@@ -721,6 +724,102 @@
         </mxCell>
         <mxCell id="wFXP1XgkPk2sE4F9uo4A-131" value="支付宝报案成功后给报案人发送短信" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-85" y="3620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-133" target="wFXP1XgkPk2sE4F9uo4A-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-133" value="根据服务记录ID将电话号码更新至来电号码" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327.88" y="3720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-135" value="" style="endArrow=classic;html=1;exitX=0.45;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-131" target="wFXP1XgkPk2sE4F9uo4A-133">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="3790" as="sourcePoint" />
+            <mxPoint x="100" y="3740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="387.9000000000001" y="3900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-136" value="车险报案提交时，调用ECIF传送数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327.88" y="3810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-140" target="wFXP1XgkPk2sE4F9uo4A-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-143" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wFXP1XgkPk2sE4F9uo4A-142">
+          <mxGeometry x="-0.3116" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-140" target="wFXP1XgkPk2sE4F9uo4A-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-146" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wFXP1XgkPk2sE4F9uo4A-145">
+          <mxGeometry x="-0.025" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-140" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(155 , 9 , 246) ; font-style: italic&quot;&gt;渠道来源是否为97&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="3900" width="116.88" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-141" value="调用报案信息告知接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="3910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-144" target="wFXP1XgkPk2sE4F9uo4A-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-149" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wFXP1XgkPk2sE4F9uo4A-148">
+          <mxGeometry x="-0.1186" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-144" target="wFXP1XgkPk2sE4F9uo4A-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-154" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wFXP1XgkPk2sE4F9uo4A-153">
+          <mxGeometry x="-0.25" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-144" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(155 , 9 , 246) ; font-style: italic&quot;&gt;中保信推送的案件&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323.44" y="4020" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-147" target="wFXP1XgkPk2sE4F9uo4A-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-147" value="先保存记录，以便后续进行图片上传动作" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="4030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-150" value="调用中保信理赔服务接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="4030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-157" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-152" target="wFXP1XgkPk2sE4F9uo4A-156">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="4220" />
+              <mxPoint x="220" y="4220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-152" target="wFXP1XgkPk2sE4F9uo4A-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-152" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(155 , 9 , 246) ; font-style: italic&quot;&gt;是否投保在深圳的&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323.44" y="4180" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-156" value="通知深圳警保进行报案上传" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-158" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-150" target="wFXP1XgkPk2sE4F9uo4A-152">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="4170" as="sourcePoint" />
+            <mxPoint x="40" y="4120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFXP1XgkPk2sE4F9uo4A-159" value="返回json数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="328.44" y="4290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
