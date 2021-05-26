@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T09:05:20.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="aAek7UcQa6x9Zn2Er7ap" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T09:26:11.968Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="k6DC2Y27-t3auBbL0JLd" version="14.6.12" type="github">
   <diagram id="pP_zKRRLjY6W0GEJr_z5" name="Page-1">
-    <mxGraphModel dx="2703" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3153" dy="2150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -553,6 +553,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="2750" as="sourcePoint" />
             <mxPoint x="710" y="2700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="629" y="2750" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="wFXP1XgkPk2sE4F9uo4A-90" value="车险" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -646,6 +649,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="610" y="3270" as="sourcePoint" />
             <mxPoint x="660" y="3220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="629" y="3270" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="wFXP1XgkPk2sE4F9uo4A-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-116" target="wFXP1XgkPk2sE4F9uo4A-117">
@@ -695,6 +701,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="650" y="3520" as="sourcePoint" />
             <mxPoint x="700" y="3470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="3430" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="wFXP1XgkPk2sE4F9uo4A-124" value="给金牌vip的理赔负责人发送短信" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -718,6 +727,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="650" y="3630" as="sourcePoint" />
             <mxPoint x="700" y="3580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="3560" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="wFXP1XgkPk2sE4F9uo4A-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-128" target="wFXP1XgkPk2sE4F9uo4A-131">
@@ -739,6 +751,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="505" y="3750" as="sourcePoint" />
             <mxPoint x="555" y="3700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="424" y="3710" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="wFXP1XgkPk2sE4F9uo4A-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-136">
@@ -820,6 +835,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="445" y="4130" as="sourcePoint" />
             <mxPoint x="495" y="4080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="4110" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zfDcgEtUUFIZB1m_Xge4-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFXP1XgkPk2sE4F9uo4A-159">
